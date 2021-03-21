@@ -1,38 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*{padding: 0;margin: 0;}
+body{background: #cee5ed}
+.slot_inner:first-child{border-top:1px solid #333}
+.slot_inner{border-bottom:1px solid #333;border-right:1px solid #333;border-left:1px solid #333;padding:5px;}
+.slotGame h1{text-align: center;font-size: 25px;background: #fff;padding: 15px 0;font-weight: 500}
+.slot_inner h1{font-size: 15px;padding: 0;padding-bottom: 5px;background-color: transparent;}
+.slotMachine{width: 450px;margin:20px auto;}
